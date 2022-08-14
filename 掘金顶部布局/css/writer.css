@@ -1,0 +1,65 @@
+.writer{
+    float: left;
+}
+.writer .tis{
+    float: left;
+}
+.writer .writing{
+    border-radius: 4px;
+    padding:5px 22px 0 15px ;
+    margin-left: 30px;
+    height: 35px;
+    background-color: #1e80ff;
+    color: #f1f1f1;
+    border: 1px solid #1e80ff;
+    font-size: 15px;
+}
+.writer .writing .writera:hover{
+    background-color: #1975f6;
+}
+.writer .writing .writerspan:hover{
+    background-color: #1975f6;
+}
+.writer .writing span{
+    float: right;
+    height: 100%;
+    line-height: 100%;
+    border-left: 1px solid #f1f1f1;
+    position: relative;
+    width: 20px;
+    right: -21px;
+    font-size: 0;
+}
+.writer .writing span:after{
+    content:'';
+    border-left: 4px solid #f1f1f1;
+    border-bottom: 4px solid #f1f1f1;
+    border-right: 4px solid transparent;
+    border-top: 4px solid transparent;
+    position: absolute;
+    transform-origin: center;
+    transform: rotateZ(-45deg);
+    transition: transform .3s;
+    top: 50%;
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -8px;
+}
+.writer .writing span:hover::after{
+    transform: rotateZ(135deg);
+}
+.writer .logoing{
+    border-radius: 4px;
+    margin-top: 14px;
+    margin-left: 15px;
+    height: 35px;
+}
+.writer .logining{
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-left: 15px;
+    height: 35px;
+    color: #1e80ff;
+    border: 1px solid #1e80ff;
+    font-size: 15px;
+}

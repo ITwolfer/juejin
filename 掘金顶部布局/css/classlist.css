@@ -1,0 +1,26 @@
+.classlist{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+
+}
+.classlist li{
+    float: left;
+    line-height: 60px;
+}
+.classlist li a{
+    text-decoration: none;
+    font-size: initial;
+    display: block;
+    margin: -20px 12px;
+    border-bottom: 2px solid transparent;
+    color: #515767;
+
+}
+.classlist .lis a:hover{
+    border-bottom: 2px solid #1e80ff;
+}
+.classlist .lis1{
+color: #1e80ff;
+}

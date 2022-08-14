@@ -1,0 +1,17 @@
+
+body{
+    height: 2000px;
+    width: 1000px;
+}
+ul{
+    list-style: none;
+
+}
+.top{
+    width:1460px;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 0 25px;
+
+}
